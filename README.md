@@ -27,7 +27,7 @@ local myCoreUnit = myCoreUnit ---@type CoreUnit
 
 ### Improved Event Handlers
 
-DU-LuaC has built-in support for multiple event handlers, which makes it easier to write modular scripts as you never override another script's event handler. They are automatically added to any liked component which has in-game events.
+DU-LuaC has built-in support for multiple event handlers, which makes it easier to write modular scripts as you never override another script's event handler. They are automatically added to any linked component which has in-game events.
 
 In case you want to add event support for your own objects and instances, use the `library.addEventHandlers(yourInstance)` function, which will add three new functions to your object:
 
